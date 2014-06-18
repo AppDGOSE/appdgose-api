@@ -1,7 +1,7 @@
 # EventsController maneja las llamadas relacionadas con los eventos.
 #
 class EventsController < ApplicationController
-  prepend_before_filter :require_no_authentication, :only => [:show]
+ skip_before_filter :authenticate_user! 
   respond_to :json
   
   #
