@@ -21,5 +21,8 @@ module AppdgoseApi
     # config.i18n.default_locale = :de
     
     config.secret_key_base = 'blipblapblup'
+
+    config.api_only = false
+    
   end
 end
