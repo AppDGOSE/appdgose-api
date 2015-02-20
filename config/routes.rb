@@ -4,7 +4,7 @@ AppdgoseApi::Application.routes.draw do
   get  "/profile/", :to => "profile#show",  :as =>  :profile_show
   get "/payments/", :to => "payments#show", :as => :payments_show
   get "/events/"  , :to => "events#show",   :as => :events_show
-  post "events/seen", :to => "events#update", :as => :events_update
+  post "/events/seen/", :to => "events#update", :as => :events_update
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
