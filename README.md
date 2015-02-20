@@ -1,9 +1,13 @@
 # API-DGOSE
 
+### Instrucciones para bajar el repositorio de heroku
+
+ heroku git:clone -a api-dgose
+
 ### Requisitos
 
-* Ruby version: '2.1.0'
-* Rails version: '4.0.3'
+* Ruby version: '2.2.0'
+* Rails version: '4.2.0'
 
 ### Instalación del ambiente de desarrollo
 ##### Linux/MacOSX
