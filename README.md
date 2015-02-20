@@ -35,19 +35,16 @@ El código se encuentra en: ```lib/tasks/scheduler.rake```
 
 ### Instrucciones para subir cambios
 
-##### Configuración del repositorio local
+##### Bajar el repositorio de heroku
 
-Agregar la siguiente configuración al archivo ```.git/config```:
-
-```
-[remote "heroku"]
-  url = git@heroku.com:api-dgose.git
-  fetch = +refs/heads/*:refs/remotes/heroku/*
-```
+ heroku git:clone -a api-dgose
 
 ##### Push
 
 **Si ya estas familiarizado con Heroku puedes saltarte esta parte.**
 
+El proyecto esta hecho para que en un branch local se tengan las credenciales de la BD, no deben de estar en github.
+Por ejemplo, puedes crear un branch llamado heroku y hacer deployment a la nube de heroku basta con el siguiente comando:
+
 * Push
-```$ git push heroku master``` o ```$ git push heroku master --force```
+```$ git push heroku heroku:master```
