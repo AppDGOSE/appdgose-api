@@ -2,7 +2,7 @@
 
 ### Instrucciones para bajar el repositorio de heroku
 
- heroku git:clone -a api-dgose
+ ```heroku git:clone -a api-dgose```
 
 ### Requisitos
 
@@ -38,10 +38,6 @@ Para sincronizar los becarios registrados con los usuarios de la API, se ejecuta
 El código se encuentra en: ```lib/tasks/scheduler.rake```
 
 ### Instrucciones para subir cambios
-
-##### Bajar el repositorio de heroku
-
- heroku git:clone -a api-dgose
 
 ##### Push
 
