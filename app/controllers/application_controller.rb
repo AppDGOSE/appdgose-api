@@ -5,6 +5,7 @@ class ApplicationController < ActionController::API
   
   include ActionController::ImplicitRender
   include ActionController::StrongParameters
+  include ActionController::Cookies
   
   before_action :authenticate_user!
 end
