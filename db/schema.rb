@@ -107,4 +107,9 @@ ActiveRecord::Schema.define(version: 20140326203257) do
 
   add_index "vw_payments", ["cuenta"], name: "index_vw_payments_on_cuenta", unique: true
   
+  create_table "users_events", force: true do |t|
+    t.integer "id_event", null: false
+    t.integer "user_id", null: false
+    t.boolean "seen", default: false, null: false
+  end  
 end

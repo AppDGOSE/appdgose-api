@@ -13,8 +13,8 @@ Feature: Devise basic operations (sign in, sign out)
 		{
 		  "status": "200",
 		  "message":"Autentificación correcta",
-           "user": { "last_login": "2014-01-01 00:00:00 +0500"} 
-		}
+          "user": { "new_events": false } 
+         }
 	  """
 
 	Scenario: Failure sign in using wrong account_number and correct password
@@ -51,7 +51,7 @@ Feature: Devise basic operations (sign in, sign out)
 	  	{
 		  "status": "200",
 		  "message":"Autentificación correcta",
-           "user": { "last_login": "2014-01-01 00:00:00 +0500"}
+          "user": { "new_events": false }
 		}
 	    """
 		Then I send a DELETE request to "/users/sign_out"

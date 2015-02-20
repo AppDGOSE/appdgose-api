@@ -22,7 +22,7 @@ module AppdgoseApi
     
     config.secret_key_base = 'blipblapblup'
 
-    config.api_only = false
+    config.api_only = true
     
   end
 end

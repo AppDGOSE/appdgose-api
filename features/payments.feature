@@ -22,7 +22,7 @@ Feature: Payments
 	  	{
 		  "status": "200",
 		  "message":"Autentificación correcta",
-           "user": { "last_login": "2014-01-01 00:00:00 +0500" }
+          "user": { "new_events": false }
 		}
 	  """
 
@@ -68,7 +68,7 @@ Feature: Payments
 	  	{
 		  "status": "200",
 		  "message":"Autentificación correcta",
-           "user": { "last_login": "2014-01-01 00:00:00 +0500" }
+          "user": { "new_events": false }
 		}
 	  """
 

@@ -6,5 +6,5 @@ class ApplicationController < ActionController::API
   include ActionController::ImplicitRender
   include ActionController::StrongParameters
   
-  before_filter :authenticate_user!
+  before_action :authenticate_user!
 end
