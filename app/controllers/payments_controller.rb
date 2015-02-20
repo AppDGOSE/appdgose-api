@@ -9,7 +9,7 @@ class PaymentsController < ApplicationController
   #
   def show
     payments = Payment.find_by_cuenta(current_user.account_number)
-
+    
     if payments.nil?
       render json: Payment.json_error, status: 404
     else

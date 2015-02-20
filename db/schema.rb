@@ -106,5 +106,5 @@ ActiveRecord::Schema.define(version: 20140326203257) do
   end
 
   add_index "vw_payments", ["cuenta"], name: "index_vw_payments_on_cuenta", unique: true
-
+  
 end

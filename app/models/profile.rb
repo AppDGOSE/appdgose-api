@@ -44,6 +44,12 @@ class Profile < ActiveRecord::Base
             "name" => "#{desc_code_prog_beca}",
             "status" => "#{desc_status_beca}"
           },
+
+          "bank" => {
+            "name" => "#{desc_code_bank}",
+            "account" => "#{bank_acct}"
+          },
+          
           "current_cycle" => "#{current_cicle}"
         }
       }.to_json

@@ -50,6 +50,10 @@ Feature: Profile
 						"name":"PRONABES",
             	 		"status":"Becario Activo"
         				},
+                "bank": {
+                        "name":"BANAMEX",
+                        "account":"8548730346581998"
+                        },
 				"current_cycle":"2011-2012"
     			}
 	  }

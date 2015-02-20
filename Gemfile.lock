@@ -203,6 +203,7 @@ DEPENDENCIES
   rails-erd
   rails_12factor
   redcarpet
+  responders (~> 2.0)
   sqlite3
   unicorn
   yard
